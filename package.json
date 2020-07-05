@@ -1,0 +1,24 @@
+{
+  "name": "tutorial-webdriverio-visualgrid",
+  "version": "1.0.0",
+  "description": "WebdriverIO Applitools Visual Grid example",
+  "main": "index.js",
+  "scripts": {
+    "task1v1modern": "mocha test/ModernTestsV1/task1.js -t 300000",
+    "task1v2modern": "mocha test/ModernTestsV2/task1.js -t 300000",
+    "task2v1modern": "mocha test/ModernTestsV1/task2.js -t 300000",
+    "task2v2modern": "mocha test/ModernTestsV2/task2.js -t 300000",
+    "task3v1modern": "mocha test/ModernTestsV1/task3.js -t 300000",
+    "task3v2modern": "mocha test/ModernTestsV2/task3.js -t 300000",
+    "task1v1traditional": "mocha test/TraditionalTestsV1/task1.js -t 300000",
+    "task1v2traditional": "mocha test/TraditionalTestsV2/task1.js -t 300000"
+  },
+  "author": "Applitools Team <team@applitools.com> (http://www.applitools.com/)",
+  "owner": "amarnath.kolla1@gmail.com",
+  "license": "ISC",
+  "dependencies": {
+    "webdriverio": "^5.22.4",
+    "@applitools/eyes-webdriverio": "latest",
+    "mocha": "latest-6"
+  }
+}

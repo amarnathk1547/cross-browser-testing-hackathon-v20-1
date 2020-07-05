@@ -1,0 +1,12 @@
+Task: 1, Test Name: Search field is displayed in laptop, DOM Id: #DIV__customsear__41, Browser: "chrome", Viewport: 1200x700, Device: laptop, Status: Pass
+Task: 1, Test Name: Search field is displayed in tablet, DOM Id: #DIV__customsear__41, Browser: "chrome", Viewport: 785x700, Device: tablet, Status: Pass
+Task: 1, Test Name: Search icon is displayed in mobile, DOM Id: #A__btnsearchm__59, Browser: "chrome", Viewport: 500x700, Device: mobile, Status: Pass
+Task: 2, Test Name: Wishlist is displayed in laptop, DOM Id: #A__wishlist__52, Browser: "chrome", Viewport: 1200x700, Device: laptop, Status: Pass
+Task: 2, Test Name: Wishlist is not displayed in tablet, DOM Id: #A__wishlist__52, Browser: "chrome", Viewport: 785x700, Device: tablet, Status: Fail
+Task: 2, Test Name: Wishlist is not displayed in mobile, DOM Id: #A__wishlist__52, Browser: "chrome", Viewport: 500x700, Device: mobile, Status: Fail
+Task: 3, Test Name: Filter icon is not displayed in laptop, DOM Id: #ti-filter, Browser: "chrome", Viewport: 1200x700, Device: laptop, Status: Fail
+Task: 3, Test Name: Filter icon is displayed in tablet, DOM Id: #ti-filter, Browser: "chrome", Viewport: 785x700, Device: tablet, Status: Pass
+Task: 3, Test Name: Filter icon is displayed in mobile, DOM Id: #ti-filter, Browser: "chrome", Viewport: 500x700, Device: mobile, Status: Pass
+Task: 4, Test Name: Filter text is not displayed in laptop, DOM Id: //span[contains(text(),"Filters")], Browser: "chrome", Viewport: 1200x700, Device: laptop, Status: Fail
+Task: 4, Test Name: Filter text is displayed in tablet, DOM Id: //span[contains(text(),"Filters")], Browser: "chrome", Viewport: 785x700, Device: tablet, Status: Pass
+Task: 4, Test Name: Filter text is not displayed in mobile, DOM Id: //span[contains(text(),"Filters")], Browser: "chrome", Viewport: 500x700, Device: mobile, Status: Pass
